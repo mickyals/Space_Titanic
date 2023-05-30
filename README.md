@@ -4,16 +4,16 @@
 While rounding Alpha Centauri en route to its first destination—the torrid 55 Cancri E—the unwary Spaceship Titanic collided with a spacetime anomaly hidden within a dust cloud. Sadly, it met a similar fate as its namesake from 1000 years before. Though the ship stayed intact, almost half of the passengers were transported to an alternate dimension!
 
 ### Summary
-This project compares the accuracy of multiple classification models in predicting passenger teleportation. Models performing worse than the baseline Logistic Regression model with accuracy 77.4% were eliminated which left only 4 Ensemble models. 
+This project compares the accuracy of multiple classification models in predicting passenger teleportation. Models performing worse than the baseline Logistic Regression model with accuracy 77.3% were eliminated which left only 4 Ensemble models. 
 
 The final performance per model is as follows:
 
-|Model| Accuracy - untuned | Accuracy - tuned|
-|-----|--------------------|-----------------|
-|Random Forest| 81.75% |                  |
-|XGBoost  | 80.82% |                       |
-|AdaBoost | 80.69% |                      |
-|GBM |  82.34% |                          |
+|Model| Accuracy - untuned | Accuracy - tuned| % Change |
+|-----|--------------------|-----------------|----------|
+|Random Forest| 80.99% |   79.4%               |-1.59|
+|XGBoost  | 81.40% |         81.81%              | +0.41|
+|AdaBoost | 80.16% |      81.52%                |+1.36|
+|GBM |  81.63% |           81.55%               |-0.08|
 
 
 ### Citation
