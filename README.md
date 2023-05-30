@@ -16,6 +16,11 @@ The final performance per model is as follows:
 |GBM |  81.63% |           81.55%               |-0.08|
 
 
+Opting for the XGBoost model since it could more easily handle the missing values in the test set, we scored a final value of 80.336%.
+
+> This information is subject to change if and when the model is updated
+
+
 ### Citation
 #### Spaceship Titanic
 - **Authors:** Addison Howard, Ashley Chow, Ryan Holbrook
